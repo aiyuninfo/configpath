@@ -10,6 +10,8 @@
 `vm.resource.type`  映射类型，如果是本地文件夹绝对路径，type为 file ,resource文件夹内的，type 为classpath<br/>
 
 配置示例：
+
+`yum:`<br/>
 ```Java
 upload:
     path: D:/imgUploader/
@@ -18,6 +20,14 @@ vm:
         path: web
         type: file
 ```
+`properties:`<br/>
+
+```Java
+upload.path=D:/imgUploader/
+vm.resource.path=web
+vm.resource.type=file
+```
+
 访问： http://localhost:8080/web/123.jpg
 ```Java
 upload:
