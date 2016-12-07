@@ -11,7 +11,7 @@
 
 配置示例：
 
-`yum:`<br/>
+`yml:`<br/>
 ```Java
 upload:
     path: D:/imgUploader/
