@@ -9,4 +9,22 @@
 `vm.resource.path`  映射的路径比如 web，此时本地文件夹可以使用这个映射来直接访问文件<br/>
 `vm.resource.type`  映射类型，如果是本地文件夹绝对路径，type为 file ,resource文件夹内的，type 为classpath<br/>
 
-
+配置示例：
+`
+upload:
+    path: D:/imgUploader/
+vm:
+    resource:
+        path: web
+        type: file
+`
+访问： http://localhost:8080/web/123.jpg
+`
+upload:
+    path: /myResource/
+vm:
+    resource:
+        path: myres
+        type: classpath
+`
+访问： http://localhost:8080/myres/123.jpg
