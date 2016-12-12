@@ -37,4 +37,13 @@ vm:
         path: myres
         type: classpath
 ```
-访问： http://localhost:8080/myres/123.jpg
+访问： http://localhost:8080/myres/123.jpg<br>
+
+#maven
+```xml
+<dependency>
+  <groupId>com.aiyun</groupId>
+  <artifactId>config-path</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
