@@ -16,6 +16,14 @@
         <relativePath />
     </parent>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Releases</name>
+            <url>http://nexus.aiyuninfo.com/repository/aiyun-repo-release/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
